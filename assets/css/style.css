@@ -1360,3 +1360,86 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+
+/* <----------------projects-----------------------------------------------------> */
+
+.page-background {
+  background-color: #0e0e0e;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  padding: 2rem;
+}
+
+.project-card-link {
+  text-decoration: none;
+  display: block;
+}
+
+.project-card-container {
+  background-color: #121212;
+  border-radius: 8px;
+  padding: 2rem;
+  max-width: 800px;
+  border: 1px solid #1c1c1c;
+  position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card-container:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
+}
+
+.project-card-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.project-card-year {
+  color: #888888;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.project-card-status {
+  border: 1px solid #d4a940;
+  color: #d4a940;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+
+.project-card-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #ffffff;
+}
+
+.project-card-description {
+  color: #cccccc;
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 80%;
+  margin-bottom: 1.25rem;
+}
+
+.project-card-tags {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.project-card-tag {
+  background-color: #1c1c1c;
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  border-radius: 2px;
+  color: #bbbbbb;
+  border: 1px solid #2a2a2a;
+  text-transform: uppercase;
+}
