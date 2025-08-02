@@ -1365,12 +1365,15 @@ section {
 /* <----------------projects-----------------------------------------------------> */
 
 .page-background {
-  background-color: #0e0e0e;
+  background-color: #00CFFF;
   font-family: 'Inter', sans-serif;
   color: #ffffff;
   padding: 2rem;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 0 0 20px #00CFFF, 0 0 30px #ffb727;
+  border-radius: 25px;
 }
-
 .project-card-link {
   text-decoration: none;
   display: block;
