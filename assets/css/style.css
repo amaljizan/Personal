@@ -317,7 +317,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(https://i.ibb.co/TB5PDc7R/Whats-App-Image-2025-07-02-at-6-24-46-PM.jpg) top right;
+  /* background: url(https://i.ibb.co/TB5PDc7R/Whats-App-Image-2025-07-02-at-6-24-46-PM.jpg) top right; */
+  background: url(  https://i.ibb.co/yFp91B0x/Whats-App-Image-2025-07-02-at-2-01-20-PM.jpg);
   background-size: cover;
   position: relative;
 }
@@ -603,7 +604,8 @@ section {
 }
 
 .about .image {
-  background: url(https://i.ibb.co/G47CC17s/Whats-App-Image-2025-07-02-at-1-59-10-PM.jpg) center center no-repeat;
+  background: url(https://i.ibb.co/p6mkskym/IMG-20240709-215625-893-01.jpg) center center no-repeat;
+  /* background: url(https://i.ibb.co/G47CC17s/Whats-App-Image-2025-07-02-at-1-59-10-PM.jpg) center center no-repeat; */
   background-size: cover;
   min-height: 500px;
 }
